@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
+Este projeto de blog foi criado com o Angular CLI na versão 14.1.2. com base nas aulas de Angular da [Digital Innovation One](https://www.dio.me/). 
+Me inspirei na série The Office para a realização do projeto, os dados e informações são somente para fins educacionais.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
