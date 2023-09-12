@@ -1,16 +1,16 @@
 <div class="container__big-card">
 
     <div class="big-card__img">
-        <img src="https://cdn.pastemagazine.com/www/articles/MikeScott.jpg" alt="image placeholder">
+        <img src="{{ photoCover }}" alt="image placeholder">
     </div>
 
     <div class="big-card__title">
-        <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+        <h1><a [routerLink]="['content', Id]">{{cardTitle}}</a></h1>
     </div>
 
     <div class="big-card__description">
         <p>
-            <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatum mollitia eveniet unde autem provident, similique culpa accusantium praesentium quibusdam pariatur laborum vero a nulla blanditiis quae! Id, nemo cum?</a>
+            <a [routerLink]="['content', Id]" >{{ cardDescription }}</a>
         </p> 
     </div>
 
